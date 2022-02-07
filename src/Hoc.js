@@ -1,1 +1,3 @@
-function Hoc(prop) {}
+function Hoc(prop) {
+  test;
+}
