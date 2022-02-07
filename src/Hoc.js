@@ -1,0 +1,1 @@
+function Hoc(prop) {}
