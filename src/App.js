@@ -1,7 +1,7 @@
 import "./styles.css";
 import { useRef, useState } from "react";
 import Counter from "./Counter";
-
+// Program to take 3 inputs and demonstrate at form submit
 export default function App() {
   const car = useRef();
   const model = useRef();
