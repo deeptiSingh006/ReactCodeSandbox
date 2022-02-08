@@ -1,3 +1,0 @@
-function Hoc(prop) {
-  test;
-}

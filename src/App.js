@@ -1,9 +1,11 @@
 import "./styles.css";
-import { useRef, useState } from "react";
-import Counter from "./Counter";
+//import { useRef, useState } from "react";
+//import Counter from "./Counter";
+import Choice from "./Choice";
+import SelectChoice from "./SelectChoice";
 // Program to take 3 inputs and demonstrate at form submit
 export default function App() {
-  const car = useRef();
+  /* const car = useRef();
   const model = useRef();
   const quant = useRef();
   const [list1, setList1] = useState([]);
@@ -54,6 +56,6 @@ export default function App() {
         })}
       </table>
       <Counter />
-    </div>
-  );
+    </div>*/
+  return <Choice />;
 }
