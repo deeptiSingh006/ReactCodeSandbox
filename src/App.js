@@ -1,4 +1,5 @@
 import "./styles.css";
+import Header from "./components/Header";
 //import { useRef, useState } from "react";
 //import Counter from "./Counter";
 import Choice from "./Choice";
@@ -57,5 +58,10 @@ export default function App() {
       </table>
       <Counter />
     </div>*/
-  return <Choice />;
+ // return <Choice />;
+ return (
+ <div> 
+ <Header/>
+ </div>
+ );
 }
